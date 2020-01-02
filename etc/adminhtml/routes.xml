@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+**
+ * Dacod Magagula.
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route frontName="dacod" id="dacod">
+            <module name="Dacod_Missingimagesreport"/>
+        </route>
+    </router>
+</config>
