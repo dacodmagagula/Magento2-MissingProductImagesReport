@@ -7,7 +7,7 @@
     </head>
     <body>
         <referenceContainer name="content">
-            <block class="Dacod\Missingimagesreport\Block\Products" template="Dacod_Missingimagesreport::report.phtml"/>
+           <uiComponent name="dacod_missing_images_product_listing"/>
         </referenceContainer>
     </body>
 </page>

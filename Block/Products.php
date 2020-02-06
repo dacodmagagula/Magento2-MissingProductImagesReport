@@ -27,7 +27,7 @@ class Products extends \Magento\Framework\View\Element\Template
 
     public function sayHello()
     {
-        return __('Hello World');
+        return __('Hello World.');
     }
 }
 ?>
