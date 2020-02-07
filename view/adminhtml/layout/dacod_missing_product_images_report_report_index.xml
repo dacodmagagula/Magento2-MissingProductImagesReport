@@ -7,7 +7,7 @@
     </head>
     <body>
         <referenceContainer name="content">
-           <uiComponent name="dacod_missing_images_product_listing"/>
+           <uiComponent name="dacod_missing_product_images_listing"/>
         </referenceContainer>
     </body>
 </page>
