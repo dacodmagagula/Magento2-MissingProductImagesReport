@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Dacod_Base::dacod" title="Dacod" sortOrder="51">
+                    <resource id="Dacod_MissingProductImagesReport::report" title="Missing Product Images Report" sortOrder="0"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

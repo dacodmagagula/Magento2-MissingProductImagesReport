@@ -27,6 +27,13 @@ class Index extends \Magento\Backend\App\Action
          $this->resultPageFactory = $resultPageFactory;
     }
 
+
+
+    protected function _isAllowed()
+    {
+     return $this->_authorization->isAllowed('Dacod_MissingProductImagesReport::report');
+    }
+
     /**
      * Load the page defined in view/adminhtml/layout/exampleadminnewpage_helloworld_index.xml
      *
