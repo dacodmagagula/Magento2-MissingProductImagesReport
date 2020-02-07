@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
 <!--
-**
- * Dacod Magagula.
+/**
+ * @category   Dacod
+ * @package    Dacod_MissingProductImagesReport
+ * @author     Dacod Magagula
+ */
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route frontName="dacod_missing_product_images_report" id="dacod_missing_product_images_report">
-            <module name="Dacod_Missingimagesreport"/>
+            <module name="Dacod_MissingProductImagesReport"/>
         </route>
     </router>
 </config>

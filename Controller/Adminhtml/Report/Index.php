@@ -1,6 +1,10 @@
 <?php
-
-namespace Dacod\Missingimagesreport\Controller\Adminhtml\Report;
+/**
+ * @category   Dacod
+ * @package    Dacod_MissingProductImagesReport
+ * @author     Dacod Magagula
+ */
+namespace Dacod\MissingProductImagesReport\Controller\Adminhtml\Report;
 
 class Index extends \Magento\Backend\App\Action
   {

@@ -1,6 +1,10 @@
 <?php
-
-namespace Dacod\Missingimagesreport\Ui\DataProvider\Product;
+/**
+ * @category   Dacod
+ * @package    Dacod_MissingProductImagesReport
+ * @author     Dacod Magagula
+ */
+namespace Dacod\MissingProductImagesReport\Ui\DataProvider\Product;
 
 class ProductDataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 {

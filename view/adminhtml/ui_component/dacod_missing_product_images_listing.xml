@@ -10,7 +10,7 @@
 <dataSource name="dacod_missing_product_images_listing_data_source">
     <argument name="dataProvider" xsi:type="configurableObject">
 
-    <argument name="class" xsi:type="string">Dacod\Missingimagesreport\Ui\DataProvider\Product\ProductDataProvider</argument>
+    <argument name="class" xsi:type="string">Dacod\MissingProductImagesReport\Ui\DataProvider\Product\ProductDataProvider</argument>
     <argument name="name" xsi:type="string">dacod_missing_product_images_listing_data_source</argument>
     <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
     <argument name="requestFieldName" xsi:type="string">entity_id</argument>
