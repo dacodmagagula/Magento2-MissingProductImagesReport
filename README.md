@@ -2,8 +2,7 @@
 
 This Magento 2 module creates a landing page in the admin backend with a list of all the visible products that do not have images linked to them. The list is in grid form, can be filtered and has an edit link for every products as a quick way to add images.
 
-
-<a href="https://ibb.co/wyLrdcg"><img src="https://i.ibb.co/H72pKh4/screenshot.png" alt="screenshot" border="0"></a>
+<img src="https://i.ibb.co/H72pKh4/screenshot.png" alt="screenshot" border="1">
 
 
 
