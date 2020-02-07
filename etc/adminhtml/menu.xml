@@ -19,6 +19,6 @@
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-      	<add id="Dacod_Missingimagesreport::Missingimagesreport" title="Missing Product Images Report" module="Dacod_Missingimagesreport" sortOrder="50" parent="Magento_Catalog::inventory" action="dacod/report/index" resource="Dacod_Missingimagesreport::report"/>
+      	<add id="Dacod_Missingimagesreport::Missingimagesreport" title="Missing Product Images Report" module="Dacod_Missingimagesreport" sortOrder="50" parent="Magento_Catalog::inventory" action="dacod_missing_product_images_report/report/" resource="Dacod_Missingimagesreport::report"/>
     </menu>
 </config>

@@ -24,7 +24,7 @@ class ProductDataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
                                  ['attribute' => 'small_image','eq' => 'no_selection' ]
                             ])
                             //->addAttributeToFilter('status', ['in' => $productStatus->getVisibleStatusIds()])
-                            ->setVisibility($productVisibility->getVisibleInSiteIds());
+                            ->addAttributeToFilter('visibility', ['in' => $productVisibility->getVisibleInSiteIds()]);
     
         
         parent::__construct(
