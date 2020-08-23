@@ -17,6 +17,9 @@
     <argument name="data" xsi:type="array">
     <item name="config" xsi:type="array">
         <item name="update_url" xsi:type="url" path="mui/index/render"/>
+        <item name="storageConfig" xsi:type="array">
+            <item name="indexField" xsi:type="string">entity_id</item>
+        </item>
     </item>
     </argument>
     </argument>
@@ -28,7 +31,7 @@
 </dataSource>
 
 
-<listingToolbar name="listing_top">
+    <listingToolbar name="listing_top">
         <argument name="data" xsi:type="array">
             <item name="config" xsi:type="array">
                 <item name="sticky" xsi:type="boolean">true</item>
@@ -36,7 +39,17 @@
         </argument>
         <bookmark name="bookmarks"/>
         <columnsControls name="columns_controls"/>
-        <!--exportButton name="export_button"/-->
+        <exportButton class="Dacod\MissingProductImagesReport\Component\ExportButton" component="Magento_Ui/js/grid/export" displayArea="dataGridActions">
+            <settings>
+                <options>
+                    <option name="cvs" xsi:type="array">
+                        <item name="value" xsi:type="string">dacodcsvexport</item>
+                        <item name="label" xsi:type="string" translate="true">CSV</item>
+                        <item name="url" xsi:type="string">dacod_missing_product_images_report/report/export</item>
+                    </option>
+                </options>
+            </settings>
+        </exportButton>
         <filters name="listing_filters" />
        <paging name="listing_paging"/>
     </listingToolbar>
