@@ -77,8 +77,15 @@ public function execute()
     $selected = $this->getRequest()->getParam('selected');
     if($selected) {
 
-        $collection = $this->collectionFactory->create()
-        ->addAttributeToFilter('entity_id', ['in' => $this->getRequest()->getParam('selected')]);
+        if(is_array($selected)){
+
+            $collection = $this->collectionFactory->create()
+            ->addAttributeToFilter('entity_id', ['in' => $this->getRequest()->getParam('selected')]);
+
+        }else{
+
+            $collection = $this->collectionFactory->create();
+        }
         
     }else {
 
