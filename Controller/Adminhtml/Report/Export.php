@@ -76,8 +76,13 @@ public function execute()
     try {
     $selected = $this->getRequest()->getParam('selected');
     if($selected) {
-        $collection = $this->collectionFactory->create();
+
+        $collection = $this->collectionFactory->create()
+        ->addAttributeToFilter('entity_id', ['in' => $this->getRequest()->getParam('selected')]);
+        
     }else {
+
+         error_log("not selected");
         $collection = $this->filter->getCollection($this->collectionFactory->create());
     }
     $ids = $collection->getAllIds();
