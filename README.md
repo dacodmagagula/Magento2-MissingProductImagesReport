@@ -16,7 +16,7 @@ This Magento 2 module creates an exportable grid in the admin backend with a lis
 
 <img src="https://dacod.co.za/images/missingproductimagesreport/filter.png" alt="filter">
 
-## Istallation Steps
+## Installation Steps
 
 1. Create a folder titled "Dacod" in your Magento `root/app/code`.
 
